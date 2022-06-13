@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <aside>
+        
+        <a href="https://fr-fr.facebook.com/" target="_blank"><img src="assets/20.png" alt="facebook"></a>
+        <a href="https://twitter.com/" target="_blank"><img src="assets/19.png" alt="twitter"></a>
+      
+    </aside>
+    <header>
+        <div class="container">
+            <nav class="menu">
+                <a class="menu--logo" href="index.html"><img src="assets/logo.png" alt="logo du site"></a>
+                <div id="wrap">
+                    <ul class="navbar">
+                      <li class="navbar__item">
+                        <a href="#" id="active">Home</a>
+                      </li>
+                      <li>
+                        <a class="deroule" href="#">Book</a>
+                        <ul>
+                          <li><a href="#">Apprendre HTML</a></li>
+                          <li><a href="#">Apprendre CSS</a></li>
+                          <li><a href="#">Apprendre JavaScript</a></li>
+                          <li>
+                            <a href="#">Apprendre PHP</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <a class="deroule" href="#">Destinations</a>
+                        <ul>
+                          <li><a href="#" >France</a></li>
+                          <li><a href="#" id="active">Brazil</a></li>
+                          <li><a href="#"> Algeria</a></li>
+                        </ul>
+                      </li>
+                      <li>
+                        <a href="#">Prices</a>
+                      </li>
+                      <li>
+                        <a href="#">Alerts</a>
+                      </li>
+                      <li>
+                        <a href="#">Contact</a>
+                      </li>
+                    </ul>
+                  </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="mySlides">
+            <div class="container">
+                <div class="side">
+            <img class="mySlides__img" src="assets/6.jpg" alt="slider1">
+            <img class="mySlides__img" src="assets/7.jpg" alt="slider2">
+            <img class="mySlides__img" src="assets/8.jpg" alt="slider3">
+            <img class="mySlides__img" src="assets/9.jpg" alt="slider4">
+            <img class="mySlides__img" src="assets/10.jpg" alt="slider5">
+            <img class="mySlides__img" src="assets/11.jpg" alt="slider6">
+            <div class="next"></div>
+            <div class="prev"></div>
+            </div>
+            <div class="mySlides__badge">
+              <span class="badge badge--inactive badge--selected" data-index="1"></span>
+              <span class="badge badge--inactive"  data-index="2"></span>
+              <span class="badge badge--inactive" data-index="3"></span>
+                <span class="badge badge--inactive" data-index="4"></span>
+                <span class="badge badge--inactive" data-index="5"></span>
+                <span class="badge badge--inactive" data-index="6"></span>
+            </div>
+        </div>
+        </section>
+
+        <section class="book">
+            <div class="container">
+            <article class="card">
+                <div class="card__head">
+                    <img class="card__img" src="assets/13.png" alt="feu">
+                    <h2 class="card__title">Safe structured and amazing application</h2>
+                </div>
+                <div class="card__content">
+                    <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, eum atque! Omnis autem placeat at cum reiciendis, vero, aspernatur, voluptate consequuntur odit dignissimos voluptatum? Sequi earum exercitationem magni nesciunt neque.. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum quaerat eveniet ipsam, ratione cumque, dolorem officia esse impedit nobis animi, odit minus quis doloremque ipsum tenetur similique id saepe explicabo.</p>
+                    <a class="card__link" href="#">more info</a>
+                </div>
+            </article>
+            <article class="card">
+                <div class="card__head">
+                    <img class="card__img" src="assets/17.png" alt="feu">
+                    <h2 class="card__title">Safe structured and amazing application</h2>
+                </div>
+                <div class="card__content">
+                    <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, eum atque! Omnis autem placeat at cum reiciendis, vero, aspernatur, voluptate consequuntur odit dignissimos voluptatum? Sequi earum exercitationem magni nesciunt neque.. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum quaerat eveniet ipsam, ratione cumque, dolorem officia esse impedit nobis animi, odit minus quis doloremque ipsum tenetur similique id saepe explicabo.</p>
+                    <a class="card__link" href="#">more info</a>
+                </div>
+            </article>
+            <article class="card">
+                <div class="card__head">
+                    <img class="card__img" src="assets/12.png" alt="feu">
+                    <h2 class="card__title">Safe structured and amazing application</h2>
+                </div>
+                <div class="card__content">
+                    <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, eum atque! Omnis autem placeat at cum reiciendis, vero, aspernatur, voluptate consequuntur odit dignissimos voluptatum? Sequi earum exercitationem magni nesciunt neque.. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum quaerat eveniet ipsam, ratione cumque, dolorem officia esse impedit nobis animi, odit minus quis doloremque ipsum tenetur similique id saepe explicabo.</p>
+                    <a class="card__link" href="#">more info</a>
+                </div>
+            </article>
+        </div>
+        </section>
+
+        <section class="destinations">
+            <div class="container">
+            <h1>Destinations</h1>
+            <div class="pays">
+            <img class="pays__img" src="assets/3.jpg" alt="France">
+            <h3 class="pays__title">France</h3>
+            </div>
+            <div class="pays">
+                <img class="pays__img" src="assets/4.jpg" alt="Brazil">
+                <h3 class="pays__title">Brazil</h3>
+                </div>
+                <div class="pays">
+                    <img class="pays__img" src="assets/5.jpg" alt="Algeria">
+                    <h3 class="pays__title">Algeria</h3>
+                    </div>
+                </div>
+        </section>
+
+        <section class="travel">
+            <div class="container">
+                <div class="about">
+                    <h2 class="travel__title">About Us</h2>
+                    <p class="about__text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, cumque distinctio! Doloremque autem illum, quo accusamus inventore natus obcaecati nemo quia doloribus quis, voluptatem sapiente optio suscipit. Repudiandae, aliquid. Repellat.
+                    Veritatis iste harum deserunt quam fugiat quisquam, nesciunt rem natus illo, animi tenetur magnam libero sunt voluptate voluptates nobis aut omnis error adipisci facere impedit laborum? Aliquam sunt vero quae?
+                    Officiis ratione labore minima. Ex, ullam quae tempore nam laborum asperiores eveniet. Aspernatur sed, possimus ut sapiente facilis ipsa? Eos ea rem ad accusantium enim possimus recusandae, eaque pariatur officia.</p>
+                    <p class="about__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam quaerat autem sunt harum ut necessitatibus quisquam eligendi. Facere, debitis nulla recusandae alias molestiae aliquid neque molestias, libero aut iusto consequuntur!
+                    Sit reiciendis dolorem facilis ullam eligendi. Numquam voluptatum natus veniam veritatis amet sapiente libero atque quasi maiores ex? Dolores et minima consequuntur iure alias ea mollitia quia ipsum exercitationem atque.</p>
+                </div>
+                <div class="why">
+                    <h2 class="travel__title">Why Us</h2>
+                    <div class="why__content">
+                        <img src="assets/14.png" alt="loop" class="why__img">
+                        <p class="why__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam iste quaerat sunt corrupti beatae at molestiae fugiat, natus consectetur sit aperiam. Ab nesciunt earum neque dolore ex ad sapiente in.</p>
+                    </div>
+                    <div class="why__content">
+                        <img src="assets/15.png" alt="loop" class="why__img">
+                        <p class="why__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam iste quaerat sunt corrupti beatae at molestiae fugiat, natus consectetur sit aperiam. Ab nesciunt earum neque dolore ex ad sapiente in.</p>
+                    </div>
+                    <div class="why__content">
+                        <img src="assets/16.png" alt="loop" class="why__img">
+                        <p class="why__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam iste quaerat sunt corrupti beatae at molestiae fugiat, natus consectetur sit aperiam. Ab nesciunt earum neque dolore ex ad sapiente in.</p>
+                    </div>
+                </div>
+                <div class="how">
+                    <h2 class="travel__title">How to travel ?</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati illum recusandae facere quisquam laborum maiores aliquid corporis iure, sequi eveniet? Neque quo, tempora in quisquam eos sit voluptatibus facere assumenda! Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, dolore.</p>
+                    <a href="#" class="how__link">Subscribe</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+        <div class="FooterNav">
+            <a href="#" class="FooterNav__link">Home</a><a href="#" class="FooterNav__link">Book</a><a href="#" class="FooterNav__link">Destinations</a> <a href="#" class="FooterNav__link">Prices</a>  <a href="#" class="FooterNav__link">Alerts</a> <a href="#" class="FooterNav__link">Contact</a>
+        </div>
+        <p class="copywriting">&copy; There is no birds here Look around.</p>
+    </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
